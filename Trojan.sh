@@ -155,7 +155,6 @@ EOF
 	#申请https证书
 	mkdir /usr/src/trojan-cert
 	curl https://get.acme.sh | sh
-	~/.acme.sh/acme.sh  --set-default-ca  --server zerossl
 	~/.acme.sh/acme.sh  --register-account  --server zerossl \
         --eab-kid  BUynZMQMPb7DxpvjY1LZYA \
         --eab-hmac-key  8oK3X_XELrTHHFwNPnjasVE94-V1rmZxEywkkzIWxmf0gD5y15wo-hPw6aRImamihr9mTc-_J2pY7SMGVKhgWQ
